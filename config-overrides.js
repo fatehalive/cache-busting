@@ -21,7 +21,7 @@ module.exports = {
         console.log("> webpack_stage\n")
 
         /* Your custom webpack here */
-        // config.output.filename = `static/js/[name].${appVersion}-[contenthash].js`
+        config.output.filename = `static/js/[name].v${appVersion}_[contenthash].js`
 
         return config;
     }
